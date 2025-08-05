@@ -1,15 +1,28 @@
-# Arduino LED Blink (Elegoo UNO R3)
+# 🔌 Arduino LED Blink (Elegoo UNO R3)
 
-Simple LED blink project using Arduino Uno. Includes two versions:
+A simple LED blink project using the Arduino Uno (Elegoo UNO R3). This project demonstrates basic digital output and is ideal for beginners learning how to use the Arduino platform.
 
-- With delay (blinking LED)
-- Without delay (always ON/OFF)
+## ✨ Features
 
-## Instructions
-1. Open `.ino` files with Arduino IDE.
-2. Upload to Elegoo UNO using USB.
-3. Pin 13 LED will turn on/off based on the sketch.
+- ✅ Two versions of the LED blink sketch:
+  - `Blink_With_Delay.ino` — LED blinks with delay
+  - `Blink_Without_Delay.ino` — LED is always ON or always OFF (no delay)
 
-## Media
-Images in `/Images` folder  
-Video demo in `/Video` folder
+## 🛠 Requirements
+
+- Arduino IDE ([Download here](https://www.arduino.cc/en/software))
+- Elegoo UNO R3 (or any Arduino UNO)
+- USB cable
+- (Optional) External LED and resistor
+- A computer to upload the sketch
+
+## 🚀 Getting Started
+
+1. Clone or download this repository.
+2. Open one of the `.ino` files in Arduino IDE.
+3. Connect your Elegoo UNO R3 via USB.
+4. Select your board and port under **Tools > Board / Port**.
+5. Click **Upload**.
+6. Observe the built-in LED on **pin 13** blinking or turning ON/OFF.
+
+
